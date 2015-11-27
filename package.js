@@ -2,7 +2,7 @@ Package.describe({
   name: 'sungwoncho:mailman',
   version: '0.1.0',
   summary: 'Preview emails in a browser instead of sending',
-  git: '',
+  git: 'https://github.com/sungwoncho/meteor-mailman.git',
   documentation: 'README.md',
   debugOnly: true
 });
