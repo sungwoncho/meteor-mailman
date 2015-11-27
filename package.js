@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'sungwoncho:mailgirl',
+  name: 'sungwoncho:mailman',
   version: '0.1.0',
   summary: 'Preview emails in a browser instead of sending',
-  git: 'https://github.com/sungwoncho/meteor-mailgirl.git',
+  git: 'https://github.com/sungwoncho/meteor-mailman.git',
   documentation: 'README.md',
   debugOnly: true
 });
@@ -23,7 +23,7 @@ Package.onUse(function(api) {
 
   api.addFiles([
     'lib/server/namespace.js',
-    'lib/server/mailgirl.js',
+    'lib/server/mailman.js',
     'lib/server/methods.js'
   ], 'server');
 });
@@ -31,8 +31,8 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
-  api.use('sungwoncho:mailgirl');
+  api.use('sungwoncho:mailman');
   api.addFiles([
-    'test/mailgirl_test.js'
+    'test/mailman_test.js'
   ], 'server');
 });
