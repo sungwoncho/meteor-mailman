@@ -18,6 +18,10 @@ browser for you, rather than sending or displaying the content in the console.
 mailman is activated automatically in development environment. It is never
 compiled to production code.
 
+Currently, mailman can only detect emails sent using Meteor's `email` package.
+Detecting email sent via third party API is in the future roadmap. Pull requests
+and ideas are encouraged.
+
 ## Manual switch
 
 You can call the method `activateMailman` to switch mailman on and off. The
