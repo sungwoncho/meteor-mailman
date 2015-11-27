@@ -16,24 +16,23 @@ Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
   api.use([
     'ecmascript',
-    'check'
+    'check',
   ]);
 
   api.use('email', {weak: true});
 
   api.addFiles([
-    'lib/server/mailgirl.js'
+    'lib/server/namespace.js',
+    'lib/server/mailgirl.js',
+    'lib/server/methods.js'
   ], 'server');
-
-  api.addFiles([
-    'lib/namespace.js',
-    'lib/methods.js'
-  ], ['server', 'client']);
 });
 
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
   api.use('sungwoncho:mailgirl');
-  api.addFiles('test/mailgirl_test.js');
+  api.addFiles([
+    'test/mailgirl_test.js'
+  ], 'server');
 });

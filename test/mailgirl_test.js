@@ -1,5 +1,4 @@
-// Write your tests here!
-// Here is an example.
-Tinytest.add('example', function (test) {
-  test.equal(true, true);
+Tinytest.add('activateMailgirl - returns false if no Email package is used', function (test) {
+  let result = Meteor.call('activateMailgirl', true);
+  test.isFalse(result);
 });

@@ -17,7 +17,7 @@ compiled to production code.
 ## Manual switch
 
 You can call the method `activateMailgirl` to switch mailgirl on and off. The
-method is available on both server and client in development environment only.
+method is available on server in development environment only.
 
 `activateMailgirl` takes a Boolean argument indicating whether you want to turn
 it on or off. The argument defaults to `true`.
