@@ -1,5 +1,7 @@
 # Mailman
 
+[![Build Status](https://travis-ci.org/sungwoncho/meteor-mailman.svg?branch=master)](https://travis-ci.org/sungwoncho/meteor-mailman)
+
 Preview emails in a browser instead of sending.
 
 ## Install
