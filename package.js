@@ -1,7 +1,7 @@
 Package.describe({
   name: 'sungwoncho:mailman',
   version: '0.1.0',
-  summary: 'preview emails in a browser instead of sending',
+  summary: 'Preview emails in a browser instead of sending',
   git: '',
   documentation: 'README.md',
   debugOnly: true
