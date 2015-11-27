@@ -8,7 +8,9 @@ Preview emails in a browser instead of sending.
 
     meteor add sungwoncho:mailman
 
-## Feature
+## What it does
+
+![](https://cldup.com/HQTH37cPm6.gif)
 
 Whenever an email is sent during development, mailman opens it in your default
 browser for you, rather than sending or displaying the content in the console.
