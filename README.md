@@ -22,10 +22,16 @@ Currently, mailman can only detect emails sent using Meteor's `email` package.
 Detecting email sent via third party API is in the future roadmap. Pull requests
 and ideas are encouraged.
 
+## Demo app
+
+The demo app shown in the screenshot is hosted on
+[this repository](https://github.com/sungwoncho/meteor-mailman-demo).
+
 ## Manual switch
 
 You can call the method `activateMailman` to switch mailman on and off. The
-method is available on server in development environment only.
+method is available on server in development environment only. You might use
+this manual switch in `meteor shell`.
 
 `activateMailman` takes a Boolean argument indicating whether you want to turn
 it on or off. The argument defaults to `true`.
